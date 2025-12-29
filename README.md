@@ -1,0 +1,2 @@
+# Nothing-Game
+Do nothing!
