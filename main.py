@@ -8,7 +8,7 @@ def clear_screen():
 def print_title():
     """Print game title"""
     print("=" * 50)
-    print("         🎮 NOTHING GAME 🎮")
+    print("         NOTHING GAME")
     print("=" * 50)
     print("\nWelcome to the most interactive game ever!")
     print("Instructions: Just... play.\n")
@@ -63,4 +63,5 @@ if __name__ == "__main__":
         play_nothing_game()
     except KeyboardInterrupt:
         print("\n\n👋 You quit by doing... nothing special. Goodbye!")
+
 
