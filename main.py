@@ -47,12 +47,12 @@ def play_nothing_game():
             level += 1
             time.sleep(1)
         elif choice == "4":
-            print("\n👋 Thanks for playing... or not playing... NOTHING GAME!")
+            print("\nThanks for playing... or not playing... NOTHING GAME!")
             print(f"Final Score: {score} | Final Level: {level}")
-            print("You did nothing brilliantly! 🎉\n")
+            print("You did nothing brilliantly!\n")
             break
         else:
-            print("\n❌ Invalid choice. Try doing nothing instead.\n")
+            print("\nInvalid choice. Try doing nothing instead.\n")
             time.sleep(1)
         
         clear_screen()
@@ -62,7 +62,8 @@ if __name__ == "__main__":
     try:
         play_nothing_game()
     except KeyboardInterrupt:
-        print("\n\n👋 You quit by doing... nothing special. Goodbye!")
+        print("\n\nYou quit by doing... nothing special. Goodbye!")
+
 
 
 
