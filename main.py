@@ -37,7 +37,7 @@ def play_nothing_game():
             level += 1
             time.sleep(1)
         elif choice == "2":
-            print("\n🎯 You did absolutely nothing! Great job!")
+            print("\nYou did absolutely nothing! Great job!")
             score += 0
             level += 1
             time.sleep(1)
@@ -63,6 +63,7 @@ if __name__ == "__main__":
         play_nothing_game()
     except KeyboardInterrupt:
         print("\n\n👋 You quit by doing... nothing special. Goodbye!")
+
 
 
 
